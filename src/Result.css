@@ -1,0 +1,22 @@
+.result-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result-container>div{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    gap: 15px;
+}
+.value{
+    width: 50px;
+    color: purple;
+
+}
